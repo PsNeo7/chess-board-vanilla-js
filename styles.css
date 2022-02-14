@@ -1,0 +1,36 @@
+.bg-black{
+    background:black;
+}
+
+.bg-white{
+    background:white;
+}
+
+.bg-red{
+    background:red;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    /* display: inline-block; */
+    border: 5px solid black;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.square{
+    /* display: grid; */
+    /* display: inline-block; */
+    width: 50px;
+    height: 50px;
+    /* flex :1; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    vertical-align: middle;
+    /* opacity: 0.5;
+    color: rgb(47, 102, 84); */
+    transition: background-color 1000ms ease-in-out;
+    /* border: 1px solid blue; */
+}
